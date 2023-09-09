@@ -1,4 +1,5 @@
 #!/usr/bin/python3
-def reverse_list_of_integers(my_list=[]):
+def print_reversed_list_integer(my_list=[]):
     new_list = my_list[::-1]
-    return new_list
+    for i in new_list:
+        print("{:d}".format(i))
