@@ -1,6 +1,8 @@
 #!/usr/bin/python3
+"""text file-reading."""
 
 
 def read_file(filename=""):
-    with open(filename, "r", encoding="UTF-8") as f:
+    """Print the content."""
+    with open(filename, encoding="utf-8") as f:
         print(f.read(), end="")
