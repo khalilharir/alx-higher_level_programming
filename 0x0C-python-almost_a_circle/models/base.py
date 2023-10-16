@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/python3
 '''Module for Base Class.'''
 
 class Base:
