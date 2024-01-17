@@ -1,3 +1,3 @@
 #!/bin/bash
-# takes in a URL and displays all HTTP methods the server will accept
-curl -sI ALLOW $1 -L | grep "Allow" | cut -d " " -f2-
+# Sending a request and displaying the body size
+curl -sI "$1" | grep "Content-Length" | cut -c 17-
